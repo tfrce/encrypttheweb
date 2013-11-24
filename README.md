@@ -12,10 +12,11 @@ What is needed:
 * social media buttons and relevant social media text/pictures
 * need #hashtag ideas for campaign
 
-
 Next to do:
 * launch date
 * PR efforts
+
+
 Check out the bare-bones site & lemme know what you think!
 
 - @thepinwale
