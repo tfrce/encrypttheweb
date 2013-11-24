@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Demand Encryption</title>
+
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="col-md-10 col-md-offset-1">
+	<div>
+		<h1>Demand An Encrypted Web</h1>
+		<p>Does your favorite company follow industry best practices?</p>
+	</div>
+		<hr />
+		
+	<section id="scorecard">
+		<p>Tell your favorite company to follow industry-standards best practices for privacy and encryption!</p>
+		<h2>The Standard Bearers:</h2>
+		<p>These companies have fulfilled or are in the process of implementing all best practices outlined below by the <abbr title="Electronic Frontier Foundation">EFF</abbr>.<a href="#citation">&sup1;</a>
+		
+			<ul>
+				<li>Google</li>
+				<li>Dropbox</li>
+				<li>SpiderOak</li>
+				<li>Sonic.net</li>
+			</ul>
+		</p>
+		
+		<p>The following companies are making progress and with a gentle push can be convinced to implement all best practices.</p>
+			<ul>				
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Yahoo</li>
+			</ul>
+			
+		<div class="table-responsive">
+			<table class="table table-striped table-hover">
+			<tr>
+				<th></th>
+				<th>Encrypts data center links</th>
+				<th>Supports HTTPS</th>
+				<th>HTTPS Strict (HSTS)</th>
+				<th>Forward Secrecy</th>
+				<th>STARTTLS (for email)</th>
+				<th>score</th>
+			</tr>
+			<tr>
+				<td>Amazon</td>
+				<td class="undet">undetermined</td>
+				<td class="undet">limited</td>
+				<td class="danger"><em>nope :(</em> </td>
+				<td class="undet">undetermined</td>
+				<td class="undet"><em>nope :(</em> </td>
+				<td>F</td>
+			</tr>
+			<tr>
+				<td>Apple</td>
+				<td class="undet">undetermined</td>
+				<td class="success">&#x2714;</td>
+				<td class="danger"><em>nope :(</em> </td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(me.com | mac.com)</small></td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>AT&amp;T</td>
+				<td class="undet">undetermined</td>
+				<td class="undet">undetermined</td>
+				<td class="danger"><em>nope :(</em> </td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(att.net)</small></td>
+				<td>F</td>
+			</tr>
+			<tr>
+				<td>Comcast</td>
+				<td class="undet">undetermined</td>
+				<td class="undet">undetermined</td>
+				<td class="danger"><em>nope :(</em> </td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(comcast.net)</small></td>
+				<td>F</td>
+			</tr>
+			<tr>
+				<td>Dropbox</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">A+</td>
+			</tr>
+			<tr>
+				<td>Facebook</td>
+				<td class="warning">- <br /> in progress</td>
+				<td class="success">&#x2714;</td>
+				<td class="warning">- <br /> planned</td>
+				<td class="success">&#x2714;</td>
+				<td class="warning">- <br />in progress <br /> <small>(facebook.com)</small></td>
+				<td class="warning">B+</td>
+			</tr>
+			<tr>
+				<td>Foursquare</td>
+				<td class="undet">undetermined</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="undet">undetermined</td>
+				<td class="undet"><em>nope :(</em> </td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>Google</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">A+</td>
+			</tr>
+			<tr>
+				<td>Linkedin</td>
+				<td class="danger">nope <br /> <small>contemplating</small></td>
+				<td class="warning">- <br /> planned for 2014</td>
+				<td class="warning">- <br /> planned for 2014</td>
+				<td class="warning">- <br /> planned for 2014</td>
+				<td class="danger">nope <br /> <small>contemplating</small></td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>Microsoft</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td class="success">&#x2714;</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(outlook.com)</small></td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>Sonic.net</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">A+</td>
+			</tr>
+			<tr>
+				<td>Spideroak</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">A+</td>
+			</tr>
+			<tr>
+				<td>Twitter</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="success">&#x2714;</td>
+				<td class="undet"><em>nope :(</em></td>
+				<td class="warning">A</td>
+			</tr>
+			<tr>
+				<td>Tumblr</td>
+				<td class="danger"><em>nope :(</em> </td>
+				<td class="warning">- <br> planned 2013</td>
+				<td class="warning">- <br> planned 2013</td>
+				<td class="success">&#x2714;</td>
+				<td class="undet"><em>nope :(</em></td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>Verizon</td>
+				<td class="undet">undetermined</td>
+				<td class="undet">undetermined</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(verizon.net)</small></td>
+				<td>F</td>
+			</tr>
+			<tr>
+				<td>Wordpress</td>
+				<td class="undet">undetermined</td>
+				<td class="warning">available</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td class="undet">undetermined</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>Yahoo</td>
+				<td class="success">&#x2714;</td>
+				<td class="warning">- <br />planned for 2014</td>
+				<td class="danger"><em>nope :(</em></td>
+				<td class="undet">undetermined</td>
+				<td class="danger">nope <br /> <small>(yahoo.com)</small></td>
+				<td>C</td>
+			</tr>
+			</table>
+			<p> scoring criteria: 4/4 is an A + 1 bonus point for STARTTLS.</p>
+		</div>
+	</section>				
+		
+		<br />
+		<br />
+	<section id="why">
+		<h3>Why Crypto Is So Important</h3>
+		<p>The National Security Agency’s MUSCULAR program, which tapped into the fiber-optic lines connecting the data centers of Internet giants like Google and Yahoo, exposed the tremendous vulnerabilities companies can face when up against as powerful an agency as the NSA. Bypassing the companies’ legal departments, the program grabbed extralegal access to your communications, without even the courtesy of an order from the secret rubber-stamp FISA court. The program is not right, and it’s not just.</p>
+		<p>(cc-by) the <a href="https://www.eff.org/deeplinks/2013/11/encrypt-web-report-whos-doing-what">Electronic Frontier Foundation</a></p>
+		<h3>Just a start...</h3>
+		<p> Implementing these industry standard best practices is just one more way for the public to defend our ourselves from some of the mass surveillance techniques used by governments.</p>
+	</section>					
+		<hr />
+	<section id="citation">
+		<h3>citations</h3>
+		&sup1; <small>EFF:<a href="https://www.eff.org/deeplinks/2013/11/encrypt-web-report-whos-doing-what"> <em>Encrypt the Web Report &ndash; Who's Doing What</em></a></small>
+	</section>
+</body>
+	<hr />
+<footer>
+This is a campaign by the all-volunteer <a href="http://taskforce.is">Internet.Taskforce</a>. Are you a developer or designer? Join us to build the platform to defend the internet.
+</footer>
+	</div>			
+
+</html>
